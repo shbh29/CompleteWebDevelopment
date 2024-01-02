@@ -1,0 +1,36 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aqua;
+    color: red;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (min-width: 787px) {
+    header {
+        font-size: 24px;
+        font-style: bold;
+    }
+
+    main {
+        width: 80px;
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 786px) {
+    header {
+        font-size: 18px;
+        font-style: italic;
+    }
+
+    main {
+        width: 90px;
+        margin: 10px auto;
+    }
+}
