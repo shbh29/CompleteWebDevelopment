@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Pen UI</title>
+</head>
+<style>
+    body {
+        background-color: #555151;
+        color: white;
+    }
+
+    .container {
+        /* border: 2px solid wheat; */
+        overflow: auto;
+        height: auto;
+    }
+    .navBar {
+        /* border: 2px solid white; */
+        overflow: auto;
+        padding: 2px;
+
+    }
+    header ul li {
+        list-style: none;
+        float: left;
+        padding: 17px;
+    }
+    header ul li a {
+        text-decoration: none;
+        color: white;
+        padding: 10px 50px;
+        margin: 2px;
+        background-color: #464444;
+    }
+    main {
+        align-items: center;
+    }
+    #runCode {
+        height: 30px;
+        width: 100px;
+        /* border: 2px solid white; */
+        clear: left;
+        margin-top: 500px;
+        margin-left: 800px;
+        margin-bottom: 100px;
+    }
+    #result {
+        margin: 0px 500px;
+    }
+    #textCaption {
+        float: right;
+        
+        background-color: #464444;
+    }
+    footer {
+        /* border: 2px solid white; */
+    }
+</style>
+<body>
+<div class="container">
+    <header>
+        <nav class="navBar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JS</a></li>
+                <li id="result"><a href="#">Result</a></li>
+                <li id="textCaption">Run Code Pen</li>
+            </ul>
+        </nav>  
+    </header>
+    <main>
+        <div id="runCode">
+            Run Code
+        </div>
+    </main>
+    <footer>
+        This is footer
+    </footer>
+</div>
+</body>
+</html>
